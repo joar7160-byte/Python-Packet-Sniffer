@@ -8,10 +8,10 @@ Built a python packet sniffer to learn in depth how network traffic works moving
 - Idnettifiy common ports and there services
 
 ## Key takeaways
--Differences between TCP and UDP
--Port numbers and there services 
--Using Scapy for packet capture in python
+- Differences between TCP and UDP
+- Port numbers and there services 
+- Using Scapy for packet capture in python
 
-#How to run 
+##How to run 
 pip install scapy 
 python packetSniffer.py
