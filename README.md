@@ -7,6 +7,12 @@ Built a python packet sniffer to learn in depth how network traffic works moving
 - Captures source/destination IPS
 - Idnettifiy common ports and there services
 
+
+
+## How it works
+The script works by using the Scapy libaray to capture live packets within my network interface. Using if statements I determine if the packet has an IP address, weather or not that packet was TCP or UDP, and return it's port. Once that was done I created an empty dictionary to map common ports to their services. Thus mirrors the core workflow of a SOC analyst monitoring network traffic for suspicious activity
+
+
 ## Key takeaways
 - Differences between TCP and UDP
 - Port numbers and there services 
