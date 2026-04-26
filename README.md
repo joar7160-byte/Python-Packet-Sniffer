@@ -19,5 +19,5 @@ The script works by using the Scapy libaray to capture live packets within my ne
 - Using Scapy for packet capture in python
 
 ## How to run 
-pip install scapy 
+pip install scapy
 python packetSniffer.py
